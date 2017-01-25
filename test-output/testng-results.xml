@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24934" started-at="2017-01-24T22:45:34Z" finished-at="2017-01-24T22:45:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24934" started-at="2017-01-24T22:45:34Z" finished-at="2017-01-24T22:45:59Z">
+      <class name="com.saleforcecrm.tests.InvalidLoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.saleforcecrm.tests.InvalidLoginTest@735b5592]" name="setup" is-config="true" duration-ms="5970" started-at="2017-01-24T14:45:34Z" finished-at="2017-01-24T14:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.saleforcecrm.tests.LoginTest@62ee68d8]" name="setup" is-config="true" duration-ms="6234" started-at="2017-01-24T14:45:40Z" finished-at="2017-01-24T14:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.saleforcecrm.tests.InvalidLoginTest@735b5592]" name="f" duration-ms="6125" started-at="2017-01-24T14:45:53Z" finished-at="2017-01-24T14:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.saleforcecrm.tests.InvalidLoginTest -->
+      <class name="com.saleforcecrm.tests.LoginTest">
+        <test-method status="PASS" signature="ValidLogin()[pri:0, instance:com.saleforcecrm.tests.LoginTest@62ee68d8]" name="ValidLogin" duration-ms="6576" started-at="2017-01-24T14:45:46Z" finished-at="2017-01-24T14:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+      </class> <!-- com.saleforcecrm.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
